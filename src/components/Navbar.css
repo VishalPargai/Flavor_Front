@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #1e1e1e;
+  color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 10;
+  height: 7vh;
+}
+
+.logo {
+  font-size: 32px;
+  font-family: 'Brush Script MT', cursive;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd700; 
+}
+
+.login-button {
+  padding: 6px 20px;
+  border: 2px solid #00ff00;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #00ff00;
+  color: black;
+}
+.user-info {
+  color: white;
+  font-size: 18px;
+  padding: 6px 10px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logout-button {
+  padding: 6px 16px;
+  border: 2px solid red;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btns{
+  display: flex;
+  gap: 11px;
+}
+.logout-button:hover {
+  background-color: red;
+  color: black;
+}
+
+.twobtns:hover{
+  text-decoration: underline;
+}
