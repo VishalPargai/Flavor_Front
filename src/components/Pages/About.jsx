@@ -46,7 +46,7 @@ const About = () => {
       <p className="about-footer">Thank you for visiting — happy cooking! 🍽️</p>
 
       <div className="socials">
-        <h2>My socials:-</h2>
+        <h2>My Socials:-</h2>
         <div className="social-icons">
           <a href="https://www.instagram.com/v.pargai/" target="_blank"><FaInstagram size={24}/></a>
           <a href="https://www.linkedin.com/in/Vishalpargai/" target="_blank"><FaLinkedin size={24} /></a>
