@@ -1,6 +1,5 @@
 .bg-img{
-    background: url(download.jpg);
-    
+    background: url(/download.jpg);   
 }
 .full-img{
     height: 79.7vh;
