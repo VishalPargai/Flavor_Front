@@ -2,7 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Loginpage from './components/login/loginpage';
+import Loginpage from './components/login/Loginpage';
 import Signup from './components/login/Signup';
 import Menu from './components/Pages/Menu';
 import RecipeDetail from './components/Pages/RecipeDetail'; 
